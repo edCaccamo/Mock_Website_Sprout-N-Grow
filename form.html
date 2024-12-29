@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration | Sprout & Grow</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="nav-container">
+            <img src="/images/logo.jpg" alt="Sprout & Grow Logo" class="logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="main-content">
+        <h1>Event Registration Form</h1>
+        <p>Thanks for Reaching Out, we look forward to connecting with you!</p>
+        <div class="form-container">
+            <form action="#" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Do you have any previous gardening experience?</p>
+                <label for="experience-yes">
+                    <input type="radio" id="experience-yes" name="experience" value="Yes" required> Yes
+                </label>
+                <label for="experience-no">
+                    <input type="radio" id="experience-no" name="experience" value="No"> No
+                </label>
+
+                <p>Select the events you're interested in attending (Events further down the road will be updated as the
+                    date approaches):</p>
+                <label for="event1">
+                    <input type="checkbox" id="event1" name="events" value="Spring Planting Workshop"> Spring Planting
+                    Workshop
+                </label>
+                <label for="event2">
+                    <input type="checkbox" id="event2" name="events" value="Organic Seed Exchange"> Organic Seed
+                    Exchange
+                </label>
+                <label for="event3">
+                    <input type="checkbox" id="event3" name="events" value="Sustainable Gardening Seminar"> Sustainable
+                    Gardening Seminar
+                </label>
+                <label for="event4">
+                    <input type="checkbox" id="event4" name="events" value="Urban Gardening Workshop"> Urban Gardening
+                    Workshop
+                </label>
+                <label for="event5">
+                    <input type="checkbox" id="event5" name="events" value="Wildlife Conservation Workshop"> Other Event
+                    (Please Specify)
+                </label>
+
+                <label for="hear-about">How did you hear about us?</label>
+                <select id="hear-about" name="hear-about" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Friend or Family">Friend or Family</option>
+                    <option value="Online Search">Online Search</option>
+                    <option value="Advertisement">Advertisement</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="comments">Additional Comments or Questions:</label>
+                <textarea id="comments" name="comments" rows="5"></textarea>
+
+                <button type="submit">Submit Registration</button>
+            </form>
+
+            <p><a href="index.html" class="home-link">Back to Home Page</a></p>
+        </div>
+        <div class="bottom-content">
+            <img src="/images/logodos.png" alt="logo 2">
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="/images/2023_Facebook_icon.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/login" target="_blank">
+                <img src="/images/Twitter-X-Logo.png" alt="X (Twitter)">
+            </a>
+        </div>
+        <p>&copy; 2024 Sprout & Grow. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
